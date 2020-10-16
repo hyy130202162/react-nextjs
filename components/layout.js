@@ -4,7 +4,7 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = '你的姓名'
+const name = '你的姓名是皇帝'
 export const siteTitle = 'Next.js Sample Website'
 
 export default function Layout({ children, home }) {
@@ -46,6 +46,7 @@ export default function Layout({ children, home }) {
                 />
               </a>
             </Link>
+            <h1>富强民主 繁荣昌盛</h1>
             <h2 className={utilStyles.headingLg}>
               <Link href="/">
                 <a className={utilStyles.colorInherit}>{name}</a>
